@@ -1,7 +1,6 @@
 const express = require('express');
 const sqlite3 = require('sqlite3');
 const cookieParser = require('cookie-parser');
-//const csvParser = require('csv-parser');
 const fs = require('fs').promises;
 
 const populationService = require('./src/services/populationService');

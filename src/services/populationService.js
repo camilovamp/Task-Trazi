@@ -92,7 +92,6 @@ async function loadPopulationData() {
         }
       });
     });
-    //console.log("rowCount rowCount rowCount rowCount rowCount",rowCount);
     if (rowCount === 0) {
       // Import data from CSV file
       const csvData = await fs.readFile(CSVFilePath, 'utf8');
