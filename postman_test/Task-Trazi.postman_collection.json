@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "f29be7ef-9ceb-40b2-baea-b85176741b5a",
+		"name": "Task-Trazi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "1856028"
+	},
+	"item": [
+		{
+			"name": "Orlando",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5555/api/population/state/florida/city/Orlando"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Orlando",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "5000",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5555/api/population/state/florida/city/Orlando"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT NEW CITY",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "5000",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5555/api/population/state/florida/city/NEWCITY"
+			},
+			"response": []
+		}
+	]
+}
